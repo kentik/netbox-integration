@@ -1,0 +1,76 @@
+---
+name: "Flow Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/devices/{{ object }}/traffic"
+link_text: "Flow Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: dcim.device
+
+---
+name: "NMS Device Overview"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/nms/devices/{{ object.cf.kentikDeviceID }}"
+link_text: "NMS Device Overview"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: dcim.device
+
+---
+name: "Network Explorer Sites Overview (Netflow)"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/sites/{{ object.cf.kentikSiteID }}/traffic"
+link_text: "Network Explorer Sites Overview (Netflow)"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: dcim.site
+
+---
+name: "SNMP Dashboard"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/library/dashboards/{{ object.role.cf.kentikSnmpDashboard }}/guided?device={{ object }}"
+link_text: "SNMP Metrics Overview"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: dcim.device
+
+---
+name: "ASN Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/asn/{{ object }}/traffic"
+link_text: "ASN Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: ipam.asn
+
+---
+name: "IP Address Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/ip/{{ object }}/traffic"
+link_text: "IP Address Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: ipam.ipaddress
+
+---
+name: "IP Prefix Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/route-prefix/{{ object }}%20(%20-%20)"
+link_text: "IP Prefix Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+content_types: ipam.prefix
