@@ -6,7 +6,7 @@ link_url: "https://portal.kentik.eu/v4/core/quick-views/devices/{{ object }}/tra
 link_text: "Flow Quick View"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: dcim.device
 
 ---
@@ -17,7 +17,7 @@ link_url: "https://portal.kentik.eu/v4/nms/devices/{{ object.cf.kentikDeviceID }
 link_text: "NMS Device Overview"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: dcim.device
 
 ---
@@ -28,7 +28,7 @@ link_url: "https://portal.kentik.eu/v4/core/quick-views/sites/{{ object.cf.kenti
 link_text: "Network Explorer Sites Overview (Netflow)"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: dcim.site
 
 ---
@@ -39,7 +39,7 @@ link_url: "https://portal.kentik.eu/v4/library/dashboards/{{ object.role.cf.kent
 link_text: "SNMP Metrics Overview"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: dcim.device
 
 ---
@@ -50,7 +50,7 @@ link_url: "https://portal.kentik.eu/v4/core/quick-views/asn/{{ object }}/traffic
 link_text: "ASN Quick View"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: ipam.asn
 
 ---
@@ -61,7 +61,7 @@ link_url: "https://portal.kentik.eu/v4/core/quick-views/ip/{{ object }}/traffic"
 link_text: "IP Address Quick View"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: ipam.ipaddress
 
 ---
@@ -72,5 +72,5 @@ link_url: "https://portal.kentik.eu/v4/core/quick-views/route-prefix/{{ object }
 link_text: "IP Prefix Quick View"
 group_name: "Kentik"
 new_window: true
-button_class: "ghost-dark"
+button_class: "orange"
 object_types: ipam.prefix
