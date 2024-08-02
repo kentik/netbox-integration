@@ -14,7 +14,7 @@ name: "NMS Quick View"
 weight: 100
 enabled: true
 link_url: "https://portal.kentik.eu/v4/library/dashboards/579/guided?device={{ obj.name }}"
-link_text: "Flow Quick View"
+link_text: "NMS Device Overview"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
