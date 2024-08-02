@@ -7,7 +7,7 @@ link_text: "Flow Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-object_types: dcim.device
+content_types: dcim.device
 
 ---
 name: "NMS Quick View"
@@ -18,7 +18,7 @@ link_text: "Flow Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-object_types: dcim.device
+content_types: dcim.device
 
 ---
 name: "ASN Quick View"
@@ -29,7 +29,7 @@ link_text: "ASN Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-object_types: ipam.asn
+content_types: ipam.asn
 
 ---
 name: "IP Address Quick View"
@@ -40,7 +40,7 @@ link_text: "IP Address Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-object_types: ipam.ipaddress
+content_types: ipam.ipaddress
 
 ---
 name: "IP Prefix Quick View"
@@ -51,4 +51,4 @@ link_text: "IP Prefix Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-object_types: ipam.prefix
+content_types: ipam.prefix
