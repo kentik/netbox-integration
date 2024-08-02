@@ -7,40 +7,18 @@ link_text: "Flow Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-content_types: dcim.device
+object_types: dcim.device
 
 ---
-name: "NMS Device Overview"
+name: "NMS Quick View"
 weight: 100
 enabled: true
-link_url: "https://portal.kentik.eu/v4/nms/devices/{{ object.cf.kentikDeviceID }}"
-link_text: "NMS Device Overview"
+link_url: "https://portal.kentik.eu/v4/library/dashboards/579/guided?device={{ object }}"
+link_text: "Flow Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-content_types: dcim.device
-
----
-name: "Network Explorer Sites Overview (Netflow)"
-weight: 100
-enabled: true
-link_url: "https://portal.kentik.eu/v4/core/quick-views/sites/{{ object.cf.kentikSiteID }}/traffic"
-link_text: "Network Explorer Sites Overview (Netflow)"
-group_name: "Kentik"
-new_window: true
-button_class: "orange"
-content_types: dcim.site
-
----
-name: "SNMP Dashboard"
-weight: 100
-enabled: true
-link_url: "https://portal.kentik.eu/v4/library/dashboards/{{ object.role.cf.kentikSnmpDashboard }}/guided?device={{ object }}"
-link_text: "SNMP Metrics Overview"
-group_name: "Kentik"
-new_window: true
-button_class: "orange"
-content_types: dcim.device
+object_types: dcim.device
 
 ---
 name: "ASN Quick View"
@@ -51,7 +29,7 @@ link_text: "ASN Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-content_types: ipam.asn
+object_types: ipam.asn
 
 ---
 name: "IP Address Quick View"
@@ -62,7 +40,7 @@ link_text: "IP Address Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-content_types: ipam.ipaddress
+object_types: ipam.ipaddress
 
 ---
 name: "IP Prefix Quick View"
@@ -73,4 +51,4 @@ link_text: "IP Prefix Quick View"
 group_name: "Kentik"
 new_window: true
 button_class: "orange"
-content_types: ipam.prefix
+object_types: ipam.prefix
